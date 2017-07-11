@@ -1,9 +1,18 @@
 {{ partial "header.html" . }}
 
 <div class="swallow">
+{{ $data := .Site.Data }}
 {{ range first 10 .Data.Pages }}
 <div class="post-box">
 	<a href="{{ .RelPermalink }}">{{ .Title }}</a>
+
+	<div class="post-author">
+	by
+	{{ range .Params.yazar }}
+	<a href="{{ "/yazar/" | relLangURL}}{{ . | urlize }}">{{ $author := index $data.authors . }}{{ $author.name }}</a>
+	{{ end }}
+	</div>
+
 	<div class="post-summary">{{ .Summary }}</div>
 </div>
 {{ end }}

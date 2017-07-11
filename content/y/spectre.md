@@ -2,9 +2,13 @@
 date = "2017-07-10T16:52:23+03:00"
 title = "maybe string"
 
+kategori = ["triangle", "square"]
+yazar = ["lunatic"]
 +++
 
-A spectre is haunting CClub - the spectre of revisionism. All the powers of old CEng have entered into a holy alliance to exorcise this spectre: anum constitit frustra domum tenuere huic honor *dederat* solverat
+A spectre is haunting CClub - the spectre of revisionism.
+All the powers of old CEng have entered into a holy alliance to exorcise this spectre:
+anum constitit frustra domum tenuere huic honor *dederat* solverat
 Phinea tamen, auribus invisumque sacerdos perstet quoque: est. Gemini sororem
 suos. Coniunx cruore Crocale sit haustus stemus consumpta et sed sine. **Quod
 mensum** simul quoque quae.

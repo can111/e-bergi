@@ -2,6 +2,8 @@
 date = "2017-07-10T15:25:55+03:00"
 title = "financial markets will die"
 
+kategori = ["square", "circle"]
+yazar = ["lightnun"]
 +++
 
 FED hates this man. Fix foreign exchange rate and have an independent money policy with this one weird trick.

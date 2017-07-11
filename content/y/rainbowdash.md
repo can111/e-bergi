@@ -2,6 +2,8 @@
 date = "2017-07-10T16:18:48+03:00"
 title = "rainbowdash"
 
+kategori = ["triangle", "circle"]
+yazar = ["outlined"]
 +++
 
 Rainbowdash is a javascript library abstracting the deployment of ponies.
