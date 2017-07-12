@@ -1,6 +1,18 @@
 {{ partial "header.html" . }}
 
+{{ $data := .Site.Data }}
+
 <div class="post">
 <h1> {{ .Title }} </h1>
+
+<div class="post-author">
+by
+	{{ range .Params.yazar }}
+		<a href="{{ "/yazar/" | relLangURL}}{{ . | urlize }}">
+		{{ $author := index $data.authors . }}{{ $author.name }}
+		</a>
+	{{ end }}
+</div>
+
 {{ .Content }}
 </div>

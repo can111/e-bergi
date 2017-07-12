@@ -1,0 +1,21 @@
+{{ partial "header.html" . }}
+
+{{ $author_key := lower .Title }}
+{{ $author := index .Site.Data.authors $author_key }}
+
+<div class="swallow">
+
+<h1><a href=".">{{ $author.name }}</a></h1>
+<div class="author-bio">{{ $author.bio }}</div>
+<h4>Stuff by {{ $author.name }}:</h4>
+
+<div class="post-swallow">
+{{ range first 10 .Data.Pages }}
+<div class="post-box">
+	<a href="{{ .RelPermalink }}">{{ .Title }}</a>
+	<div class="post-summary">{{ .Summary }}</div>
+</div>
+{{ end }}
+</div>
+
+</div>

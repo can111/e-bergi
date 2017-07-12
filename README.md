@@ -10,9 +10,9 @@ Here is a rough *roadmap* for anyone who wants to help:
 
 - [ ] finish reading Hugo docs
 
-- [ ] generate author profiles and articles
-	- [ ] author profiles with their respective articles
-	- [ ] multiple authors
+- [x] generate author profiles and articles
+	- [x] author profiles with their respective articles
+	- [x] multiple authors
 	- [x] single article page
 - [ ] generate the index page, about page, categories
 	- [x] index

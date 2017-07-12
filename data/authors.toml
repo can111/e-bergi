@@ -9,3 +9,7 @@
 [lunatic]
 	name = "Lunatic"
 	bio = "The CCake is a lie. Soon we will give up trying to be relevant."
+
+[pointer]
+	name = "English Pointer"
+	bio = "A quail! *points at arbitrary memory area*"

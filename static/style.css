@@ -16,9 +16,12 @@ html, body {
 }
 
 .swallow {
+	padding: 2em;
+}
+
+.post-swallow {
 	display: flex;
 	flex-wrap: wrap;
-	padding: 2em;
 }
 .post-box {
 	border: 1px solid black;
