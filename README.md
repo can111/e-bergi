@@ -6,9 +6,15 @@ This repo is an attempt to swap its setup for [Hugo](https://gohugo.io).
 
 Since e-bergi is a system with many editors and authors, a `bergi-cms` is expected to mount the static generator.
 
-Here is a rough *roadmap* for anyone who wants to help:
+## run
 
-- [ ] finish reading Hugo docs
+`git clone` then `hugo server`.
+
+Most Linux distributions and FreeBSD have `hugo` as a package.
+
+## contribute
+
+Here is a rough *roadmap* for anyone who wants to help:
 
 - [x] generate author profiles and articles
 	- [x] author profiles with their respective articles
@@ -21,5 +27,7 @@ Here is a rough *roadmap* for anyone who wants to help:
 
 - [ ] dress pages
 - [ ] start making cms
+
+See the [rationale](RATIONALE.md) file for gotchas in the code.
 
 licensed under MPLv2.
