@@ -20,10 +20,12 @@ Here is a rough *roadmap* for anyone who wants to help:
 	- [x] author profiles with their respective articles
 	- [x] multiple authors
 	- [x] single article page
+	- [ ] author term page: a list of all authors
 - [ ] generate the index page, about page, categories
 	- [x] index
 	- [ ] about
 	- [ ] categories
+	- [ ] category term page
 
 - [ ] dress pages
 - [ ] start making cms
