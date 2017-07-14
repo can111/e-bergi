@@ -1,0 +1,16 @@
+{{ partial "header.html" . }}
+
+<div class="swallow">
+
+<h1>stuff in {{ .Title }}</h1>
+
+<div class="post-swallow">
+{{ range first 10 .Data.Pages }}
+<div class="post-box">
+	<a href="{{ .RelPermalink }}">{{ .Title }}</a>
+	<div class="post-summary">{{ .Summary }}</div>
+</div>
+{{ end }}
+</div>
+
+</div>

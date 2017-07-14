@@ -13,12 +13,20 @@
 	by
 	{{ range .Params.yazar }}
 		<a href="{{ "/yazar/" | relLangURL}}{{ . | urlize }}">
-		{{ $author := index $data.authors . }}{{ $author.name }}
+		{{ $author := index $data.authors . }}[{{ $author.name }}]
 		</a>
 	{{ end }}
 	</div>
-
 	<div class="post-summary">{{ .Summary }}</div>
+
+	<div class="post-categories">
+	in
+	{{ range .Params.kategori }}
+		<a href="{{ "/kategori/" | relLangURL}}{{ . | urlize }}">
+		&gt;{{ . }}
+		</a>&nbsp;
+	{{ end }}
+	</div>
 </div>
 {{ end }}
 </div>

@@ -9,8 +9,8 @@
 by
 	{{ range .Params.yazar }}
 		<a href="{{ "/yazar/" | relLangURL}}{{ . | urlize }}">
-		{{ $author := index $data.authors . }}{{ $author.name }}
-		</a>
+		[{{ $author := index $data.authors . }}{{ $author.name }}]
+		</a> 
 	{{ end }}
 </div>
 
