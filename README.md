@@ -24,7 +24,7 @@ Here is a rough *roadmap* for anyone who wants to help:
 - [ ] generate the index page, about page, categories
 	- [x] index
 	- [ ] about
-	- [ ] categories
+	- [x] categories
 	- [ ] category term page
 
 - [ ] dress pages
