@@ -1,0 +1,19 @@
+{{ partial "header.html" . }}
+{{ $site_data := .Site.Data }}
+{{ $data := .Data }}
+
+<div class="swallow">
+
+<h1>authors</h1>
+
+<div class="post-swallow">
+{{ range $key, $value := .Data.Terms }}
+{{ $author := index $site_data.authors $key }}
+<div class="post-box">
+	<a href="{{ $data.Plural }}/{{ $key | urlize }}">{{ $author.name }}</a>
+	<div class="post-summary">{{ $author.bio }}</div>
+</div>
+{{ end }}
+</div>
+
+</div>
